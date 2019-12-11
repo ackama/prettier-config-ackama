@@ -2,10 +2,10 @@
   "name": "prettier-config-ackama",
   "version": "0.1.1",
   "description": "Standard Prettier configuration for Ackama projects.",
-  "homepage": "https://bitbucket.org/rabidtech/prettier-config-ackama#readme",
+  "homepage": "https://github.com/ackama/prettier-config-ackama#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/rabidtech/prettier-config-ackama.git"
+    "url": "git+ssh://git@github.com/ackama/prettier-config-ackama.git"
   },
   "license": "ISC",
   "author": "Gareth Jones",
