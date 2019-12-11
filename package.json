@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-ackama",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standard Prettier configuration for Ackama projects.",
   "homepage": "https://github.com/ackama/prettier-config-ackama#readme",
   "repository": {
