@@ -15,12 +15,25 @@
   ],
   "scripts": {
     "release": "semantic-release -r git+ssh://git@github.com/ackama/prettier-config-ackama.git",
-    "validate": "node -r ./.prettierrc.json -p '\"If you see this, then .prettierrc.json is valid json\"'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node -r ./.prettierrc.json -p '\"If you see this, then .prettierrc.json is valid json\"'"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
     ]
   },
   "devDependencies": {
