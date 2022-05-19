@@ -9,13 +9,38 @@
   },
   "license": "ISC",
   "author": "Gareth Jones",
+  "main": "./.prettierrc.json",
   "files": [
     ".prettierrc.json"
   ],
-  "main": "./.prettierrc.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "semantic-release -r git+ssh://git@github.com/ackama/prettier-config-ackama.git",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node -r ./.prettierrc.json -p '\"If you see this, then .prettierrc.json is valid json\"'"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2"
+  }
 }
