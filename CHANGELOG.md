@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ackama/prettier-config-ackama/compare/v1.0.0...v1.0.1) (2022-05-20)
+
+
+### Bug Fixes
+
+* include `prettier` as a peer dependency ([#5](https://github.com/ackama/prettier-config-ackama/issues/5)) ([909aec6](https://github.com/ackama/prettier-config-ackama/commit/909aec65597c491118a913bf3858534e1e93a648))
+
 # 1.0.0 (2022-05-19)
 
 
