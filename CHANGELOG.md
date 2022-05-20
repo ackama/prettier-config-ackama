@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ackama/prettier-config-ackama/compare/v1.0.1...v1.1.0) (2022-05-20)
+
+
+### Features
+
+* replace deprecated `jsxBracketSameLine` with `bracketSameLine` ([#2](https://github.com/ackama/prettier-config-ackama/issues/2)) ([290ef63](https://github.com/ackama/prettier-config-ackama/commit/290ef63a05e4f5f2efa81355c889e512ac27eeed))
+
 ## [1.0.1](https://github.com/ackama/prettier-config-ackama/compare/v1.0.0...v1.0.1) (2022-05-20)
 
 
