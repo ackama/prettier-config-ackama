@@ -11,7 +11,7 @@
   "endOfLine": "lf",
   "arrowParens": "avoid",
   "trailingComma": "none",
-  "htmlWhitespaceSensitivity": "ignore",
+  "htmlWhitespaceSensitivity": "css",
   "overrides": [
     {
       "files": ["*.sass", "*.scss", "*.css", "*.less", "*.html"],
