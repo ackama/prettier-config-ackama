@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ackama/prettier-config-ackama/compare/v1.1.0...v1.2.0) (2025-08-08)
+
+
+### Features
+
+* don't ignore whitespace significance in html contexts ([#20](https://github.com/ackama/prettier-config-ackama/issues/20)) ([d155135](https://github.com/ackama/prettier-config-ackama/commit/d1551352be9881f460c76a897c6e9ace9e44cd4e))
+
 # [1.1.0](https://github.com/ackama/prettier-config-ackama/compare/v1.0.1...v1.1.0) (2022-05-20)
 
 
