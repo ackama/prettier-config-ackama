@@ -11,13 +11,5 @@
   "endOfLine": "lf",
   "arrowParens": "avoid",
   "trailingComma": "none",
-  "htmlWhitespaceSensitivity": "css",
-  "overrides": [
-    {
-      "files": ["*.sass", "*.scss", "*.css", "*.less", "*.html"],
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+  "htmlWhitespaceSensitivity": "css"
 }
