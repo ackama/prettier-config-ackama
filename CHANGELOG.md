@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ackama/prettier-config-ackama/compare/v1.2.0...v1.3.0) (2026-02-16)
+
+
+### Features
+
+* use single quotes for sass, scss, css, less, and html ([#24](https://github.com/ackama/prettier-config-ackama/issues/24)) ([90d3042](https://github.com/ackama/prettier-config-ackama/commit/90d30425fc2da6980826ad90d97dc541f7699ef4))
+
 # [1.2.0](https://github.com/ackama/prettier-config-ackama/compare/v1.1.0...v1.2.0) (2025-08-08)
 
 
